@@ -1,0 +1,51 @@
+.inputField {
+  display: flex;
+  gap: 0.5rem;
+  transform: translateY(-50%);
+}
+
+.inputField > * {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.inputField input {
+  flex: 1;
+  border: 1px solid var(--gray700);
+  background-color: var(--gray500);
+  color: var(--gray300);
+}
+.inputField input:focus {
+  background-color: var(--gray300);
+  color: var(--gray700);
+}
+
+.inputField button {
+  padding-right: 2.5rem;
+  font-size: 0.875em;
+  font-weight: 700;
+  background-color: var(--blue-dark);
+  color: var(--gray100);
+  position: relative;
+  cursor: pointer;
+}
+.inputField button:hover {
+  background-color: var(--blue);
+}
+
+.inputField button::after {
+  content: "+";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}

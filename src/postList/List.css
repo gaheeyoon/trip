@@ -1,0 +1,43 @@
+.noList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--gray400);
+  padding: 100px 0;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--gray300);
+  font-weight: 700;
+}
+.noList .icon {
+  font-size: 4em;
+  color: var(--gray400);
+}
+
+.list {
+  display: flex;
+  gap: 0.3rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray400);
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  background-color: var(--gray500);
+  color: var(--gray100);
+}
+.list:hover {
+  background-color: var(--gray600);
+}
+.list p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.list .icon {
+  display: block;
+  cursor: pointer;
+  padding: 1.2rem;
+}
+.list .icon:hover {
+  color: var(--blue);
+}

@@ -1,0 +1,20 @@
+.header {
+  background-color: var(--gray700);
+  height: 200px;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 173px;
+  font-weight: 700;
+}
+
+.header .i {
+  color: var(--blue);
+  transform: rotate(-45deg) scale(0.75);
+  margin-right: 3px;
+}
+.header span:nth-of-type(1) {
+  color: #4ea8de;
+}
+.header span:nth-of-type(2) {
+  color: #1e6f9f;
+}
